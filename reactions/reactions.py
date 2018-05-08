@@ -8,7 +8,7 @@ class Reactions:
     """Nevvy Reactions COG"""
     def __init__(self, bot):
         self.bot = bot
-        self.angery = fileIO("data/reactions/angery.json","load")
+        self.angery = fileIO("data/reactions/angry.json","load")
         self.hugs = fileIO("data/reactions/hugs.json","load")
         self.pats = fileIO("data/reactions/pats.json","load")
         self.kisses = fileIO("data/reactions/kisses.json","load")

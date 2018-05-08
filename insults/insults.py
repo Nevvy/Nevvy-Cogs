@@ -9,7 +9,7 @@ class Insults:
     def __init__(self, bot):
         self.bot = bot
         self.insults = fileIO("data/insults/insults.json","load")
-        self.angery = fileIO("data/insults/angery.json","load")
+        self.angery = fileIO("data/insults/angry.json","load")
 
     @commands.command(aliases=['insult'], pass_context=True, no_pm=True)
     async def szkaluj(self, ctx, user : discord.Member=None):
